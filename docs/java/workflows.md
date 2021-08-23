@@ -73,7 +73,7 @@ signal type. If not set, the signal type defaults to the name of the method, in 
 ### Workflow Interface Inheritance
 
 Workflow interfaces can form inheritance hierarchies. It may be useful for creating components reusable across multiple
-Workflow interfaces. For example imaging a UI or CLI button that allows to call `retryNow` signal on any Workflow. To implement
+Workflow interfaces. For example imagine a UI or CLI button that allows to call `retryNow` signal on any Workflow. To implement
 this feature you can redesign the above interface to:
 
 ```java
